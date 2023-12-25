@@ -30,6 +30,7 @@ echo "done"
 echo ""
 echo "Copying Stuff"
 cp -r arch/arm64/boot/Image AIK/Image
+cp -r .config AIK/config.txt
 echo "done"
 echo ""
 kver=$(make kernelversion)
